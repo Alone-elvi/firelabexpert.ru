@@ -1,0 +1,103 @@
+.one-fifth {
+    float: left;
+    margin-right: 24px;
+}
+
+.one-fifth {
+    width: 168px;
+}
+
+.one-fifth img {
+    max-width: 100%;
+}
+
+.logo-tf, logo-bottom {
+    float: left;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.logo-tf img, logo-bottom img {
+    vertical-align: bottom;
+    float: left;
+    margin-top: 6px;
+    margin-bottom: 1px;
+}
+
+.contacts-header {
+    float: right;
+    margin-top: 26px;
+    margin-bottom: 1px;
+}
+
+.phone-header {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 26px;
+    margin-right: 26px;
+    margin-bottom: 16px;
+}
+
+.phone-header a, .email-header a{
+    text-decoration: none;
+}
+.email-header {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+
+.icon-header {
+    font-size: 18px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.search-container {
+    float: right;
+    position: relative;
+}
+
+.section-bg-6 {
+    background: url("../img/section-bg/slide1.jpg") no-repeat center;
+}
+
+.section-bg-7 {
+    background: url("../img/section-bg/bg7.png") no-repeat center;
+}
+
+.section-bg-bc {
+    background: url("../img/section-bg/burn_feature_960.jpg") no-repeat center;
+}
+
+.navigation ul li a span {
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 9px;
+    display: block;
+    line-height: 14px;
+    color: #eee !important; /*#9f9f9f*/;
+}
+
+.navigation ul li a:hover span{
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 9px;
+    display: block;
+    line-height: 14px;
+    color: #373737 !important; /*#9f9f9f*/;
+}
+
+.navigation .active-nav span{
+    color: #373737 !important;
+}
+
+.text-darkgray, .text-darkgray h3{
+    color: #373737;
+}
